@@ -42,6 +42,14 @@ const Header = ({ activeSection, scrollToSection }: HeaderProps) => {
             Члены
           </button>
           <button
+            onClick={() => scrollToSection('news')}
+            className={`text-sm font-medium transition-colors hover:text-primary ${
+              activeSection === 'news' ? 'text-primary' : 'text-foreground/60'
+            }`}
+          >
+            Новости
+          </button>
+          <button
             onClick={() => scrollToSection('gallery')}
             className={`text-sm font-medium transition-colors hover:text-primary ${
               activeSection === 'gallery' ? 'text-primary' : 'text-foreground/60'
