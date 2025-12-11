@@ -142,6 +142,30 @@ const Index = () => {
             </div>
           </div>
 
+          <div className="mt-16 mb-12">
+            <Card className="border-2 border-primary/30 bg-primary/5">
+              <CardHeader className="text-center pb-3">
+                <div className="flex justify-center mb-4">
+                  <Icon name="Crown" className="h-12 w-12 text-primary" />
+                </div>
+                <CardTitle className="text-3xl" style={{ fontFamily: 'Cormorant, serif' }}>
+                  Атаман ассоциации
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <h3 className="text-2xl font-bold text-foreground mb-2">
+                  Игорь Леонидович Сивцов
+                </h3>
+                <p className="text-lg text-primary font-semibold mb-3">
+                  Генерал-лейтенант
+                </p>
+                <p className="text-muted-foreground">
+                  Руководит ассоциацией вольных казаков «Держава» с весны 2024 года
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+
           <div className="mt-16 grid gap-6 md:grid-cols-3">
             <Card className="border-2 hover:border-primary/50 transition-colors">
               <CardHeader>
